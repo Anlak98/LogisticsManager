@@ -27,5 +27,18 @@ All files are avaible in the "LogisticManager" directory:
 - Language: Java
 - Framework: JavaFX
 - Additional applications: SceneBuilder
+<<<<<<< HEAD
+
+<br>
+<br>
+
+# Screens
+
+![alt text](https://github.com/Anlak98/LogisticsManager/blob/main/screens/cake.png?raw=true)
+![alt text](https://github.com/Anlak98/LogisticsManager/blob/main/screens/login.png?raw=true)
+![alt text](https://github.com/Anlak98/LogisticsManager/blob/main/screens/team.png?raw=true)
+![alt text](https://github.com/Anlak98/LogisticsManager/blob/main/screens/products.png?raw=true)
+=======
 
 ![alt text]([Title](https://github.com/Anlak98)/[LogisticsManager]/blob/[branch]/image.jpg?raw=true)
+>>>>>>> 1dd88b7341d3d59487a8577393bd26cfd566d3e5
