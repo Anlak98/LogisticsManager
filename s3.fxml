@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="1000.0" stylesheets="@s3style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logisticManager.Control3">
+   <children>
+      <TableView fx:id="tableview" focusTraversable="false" layoutX="164.0" layoutY="384.0" onMouseClicked="#rowClicked" prefHeight="369.0" prefWidth="727.0" stylesheets="@s2style.css">
+        <columns>
+          <TableColumn fx:id="code" prefWidth="75.0" text="code" />
+          <TableColumn fx:id="name" prefWidth="137.41834259033203" text="name" />
+            <TableColumn fx:id="position" prefWidth="305.9969787597656" text="position" />
+            <TableColumn fx:id="quantity" prefWidth="145.00299072265625" text="quantity" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <VBox fx:id="hbox" alignment="CENTER" layoutX="164.0" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="192.0" prefWidth="727.0">
+         <children>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="456.0" spacing="35.0" stylesheets="@s3style.css">
+               <children>
+                  <Label fx:id="codelab" text="code" />
+                  <Label fx:id="namelab" text="name" />
+                  <Label fx:id="aislelab" text="aisle" />
+                  <Label fx:id="placelab" text="place" />
+               </children>
+            </HBox>
+            <TextField fx:id="inputQuantity" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="336.0" promptText="quantity" />
+            <Label fx:id="errorlabel" />
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="727.0" spacing="10.0">
+               <children>
+                  <Button fx:id="updatebutton" focusTraversable="false" mnemonicParsing="false" onAction="#check" text="Check" />
+               </children>
+            </HBox>
+            <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" prefHeight="34.0" prefWidth="706.0" textAlignment="CENTER" />
+         </children>
+      </VBox>
+      <HBox fx:id="hbox" alignment="CENTER" layoutX="175.0" layoutY="10.0" prefHeight="138.0" prefWidth="380.0" spacing="40.0" stylesheets="@s3style.css">
+         <children>
+            <VBox alignment="CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="124.0" prefWidth="52.0" spacing="1.0">
+               <children>
+                  <Button fx:id="invbutton" alignment="BOTTOM_CENTER" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" textAlignment="CENTER">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@inventory.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label fx:id="buttonnames" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="80.0" text="Inventory" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="125.0" layoutY="24.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="52.0" spacing="3.0">
+               <children>
+                  <Button fx:id="anbutton" alignment="BOTTOM_CENTER" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#analytics" textAlignment="CENTER">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@stats.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label fx:id="buttonnames" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="80.0" text="Analytics" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="52.0" spacing="3.0">
+               <children>
+                  <Button fx:id="teambutton" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#team" prefHeight="88.0" prefWidth="83.0" textAlignment="CENTER">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@team.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label fx:id="buttonnames" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="80.0" text="Team" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="52.0" spacing="3.0">
+               <children>
+                  <Button fx:id="prodbutton" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#products" prefHeight="88.0" prefWidth="83.0" textAlignment="CENTER">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@products.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label fx:id="buttonnames" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="80.0" text="Products" />
+               </children>
+            </VBox>
+         </children></HBox>
+      <HBox fx:id="hbox" alignment="CENTER_RIGHT" layoutX="831.0" layoutY="24.0" prefHeight="40.0" prefWidth="150.0" spacing="10.0">
+         <children>
+            <Label fx:id="username" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="93.0" text="Label" />
+            <Button fx:id="logout" mnemonicParsing="false" onAction="#logout" prefHeight="22.0" prefWidth="18.0">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </HBox>
+      <ImageView fitHeight="160.0" fitWidth="175.0" layoutX="4.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

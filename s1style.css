@@ -1,0 +1,49 @@
+#borderpane{
+	-fx-pref-width: 1000px;
+    -fx-pref-height: 800px;
+    -fx-background-color: #F7481D;
+}
+
+
+#vbox{
+	-fx-background-color: #F5F7F8; 
+	-fx-background-radius: 100;
+	-fx-pref-width: 500px;
+    -fx-pref-height: 600px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 0, 0, 0, 10);
+}
+
+#loginlabel{
+	 -fx-font-size: 20px;
+	
+}
+
+#usertext, #passwordtext{
+	 -fx-background-radius: 70;
+	 -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+}
+
+#loginbutton{
+	-fx-font-size: 15px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #000000;
+    -fx-border-color: #F7481D;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;	
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+#loginbutton:hover{
+	-fx-cursor: hand;
+	-fx-font-size: 20px;
+	-fx-background-radius: 100;	
+	-fx-background-color: #F7481D;
+	-fx-border-color: #F7481D; 
+	-fx-border-radius: 100;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+}
+
+#errorlabel{
+	-fx-text-fill: #000000;
+}

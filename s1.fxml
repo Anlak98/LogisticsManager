@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" stylesheets="@s1style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logisticManager.Control1">
+   <center>
+      <VBox fx:id="vbox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="505.0" prefWidth="639.0" spacing="10.0" stylesheets="@s1style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="231.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+            <Label fx:id="errorlabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="220.0" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" stylesheets="@s1style.css">
+               <children>
+                  <TextField fx:id="usertext" focusTraversable="false" prefHeight="58.0" prefWidth="235.0" promptText="USERNAME" stylesheets="@s1style.css" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" stylesheets="@s1style.css">
+               <children>
+                  <PasswordField fx:id="passwordtext" focusTraversable="false" prefHeight="58.0" prefWidth="235.0" promptText="PASSWORD" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="30.0" stylesheets="@s1style.css">
+               <children>
+                  <Button fx:id="loginbutton" mnemonicParsing="false" onAction="#login" prefHeight="39.0" prefWidth="102.0" stylesheets="@s1style.css" text="Login" />
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="5.0" />
+         </opaqueInsets></VBox>
+   </center>
+   <left>
+      <ImageView fitHeight="804.0" fitWidth="379.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@pexels-tiger-lily-4483609.jpg" />
+         </image>
+      </ImageView>
+   </left>
+</BorderPane>

@@ -1,0 +1,75 @@
+#anchorpane{
+	-fx-pref-width: 1000px;
+    -fx-pref-height: 800px;
+    -fx-background-color: #F5F7F8;
+}
+
+#hbox, #vbox{
+	-fx-background-color: #F9B572; 
+	-fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+#logout{
+	-fx-background-color: #F9B572;
+}
+
+#logout:hover{
+	-fx-cursor: hand;
+	-fx-font-size: 20px;
+}
+
+#headlabel{
+	-fx-font-size: 10px;
+    -fx-font-weight: bolder;
+}
+
+#namelab, #codelab, #aislelab, #placelab, #result{
+		-fx-font-size: 15px;
+		-fx-font-weight: bolder;
+}
+
+#buttonnames{
+		-fx-font-size: 15px;
+		-fx-font-weight: bolder;	
+}
+
+
+#anbutton, #teambutton, #prodbutton,#invbutton{
+	    -fx-background-color: #F5F7F8;
+	    -fx-background-radius: 10;
+}
+
+#anbutton{
+	-fx-border-color: #F7481D;
+	-fx-border-width: 4;
+	-fx-border-radius: 10;
+}
+
+#invpiebutton{
+	 -fx-background-color: #F5F7F8;
+	 -fx-background-radius: 10;
+}
+
+#invbutton:hover, #anbutton:hover, #teambutton:hover, #prodbutton:hover, #invpiebutton:hover, #invstackbutton:hover{
+		-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+	    -fx-background-radius: 12;
+	    -fx-cursor: hand;
+}
+
+#invpiebutton, #invstackbutton{
+	 -fx-background-color: #F5F7F8;
+	 -fx-background-radius: 10;
+}
+
+#invpiebutton{
+	-fx-border-color: #F7481D;
+	-fx-border-width: 4;
+	-fx-border-radius: 10;
+}
+
+
+.default-color0.chart-pie{-fx-pie-color: #65C18C}
+.default-color1.chart-pie{-fx-pie-color: #FF4646}
+.default-color2.chart-pie{-fx-pie-color: #FF4646}
+

@@ -1,0 +1,87 @@
+#anchorpane{
+	-fx-pref-width: 1000px;
+    -fx-pref-height: 800px;
+    -fx-background-color: #F5F7F8;
+}
+
+.table-row-cell{
+    -fx-background-color: #EEF0E5; /* Imposta il colore di sfondo desiderato per le righe dispari */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db; /* Colore di sfondo quando la riga è selezionata */
+    -fx-text-fill: white; /* Colore del testo quando la riga è selezionata */
+}
+
+.table-view .column-header {
+    -fx-background-color: #F9B572; /* Colore di sfondo degli header delle colonne */
+    -fx-text-fill: black; /* Colore del testo negli header delle colonne */
+}
+
+#errorlabel{
+	-fx-font-size: 18px;
+	-fx-text-fill: #000000;
+}
+
+#hbox, #vbox{
+	-fx-background-color: #F9B572; 
+	-fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+#headlabel{
+	-fx-font-size: 15px;
+    -fx-font-weight: bolder;
+}
+
+#stackpane{
+	-fx-background-radius: 10;
+	-fx-background-color: #F5F7F8;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+
+#stackpane:hover{
+	-fx-background-color: #F7481D;
+	-fx-font-size: 17px;
+}
+
+#logout{
+	-fx-background-color: #F9B572;
+}
+
+#logout:hover{
+	-fx-cursor: hand;
+	-fx-font-size: 20px;
+}
+
+#imageicon{
+	-fx-background-radius: 10;
+}
+
+#buttonnames{
+		-fx-font-size: 15px;
+		-fx-font-weight: bolder;	
+}
+
+#invbutton, #anbutton, #teambutton, #prodbutton{
+	    -fx-background-color: #F5F7F8;
+	    -fx-background-radius: 10;
+}
+
+#teambutton{
+	-fx-border-color: #F7481D;
+	-fx-border-width: 4;
+	-fx-border-radius: 10;
+}
+
+#invbutton:hover, #anbutton:hover, #teambutton:hover, #prodbutton:hover{
+		-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+	    -fx-background-radius: 12;
+	    -fx-cursor: hand;
+}
+
+#updateButton:hover, #addButton:hover, #removeButton:hover{
+		-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.9), 10, 0, 0, 0);
+	    -fx-background-radius: 12;
+	    -fx-cursor: hand;
+}
