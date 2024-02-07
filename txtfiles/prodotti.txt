@@ -1,0 +1,103 @@
+6001,Chair,25.99,aisle 08 place 12,75,-15,furniture
+6002,Chair Blue,25.99,aisle 08 place 12,75,5,furniture
+6003,Lamp,12.5,aisle 10 place 05,120,0,furniture
+6004,Bookshelf,89.99,aisle 03 place 17,30,0,furniture
+6005,Sofa,299.5,aisle 14 place 02,20,0,furniture
+6006,Coffee Table,49.99,aisle 06 place 10,60,-15,furniture
+6007,Bed,199.99,aisle 09 place 15,25,0,furniture
+6008,Wardrobe,159.0,aisle 07 place 21,35,0,furniture
+6009,Dining Table,129.99,aisle 11 place 14,45,0,furniture
+6010,Armchair,79.99,aisle 04 place 15,60,0,furniture
+6011,Desk Chair,59.5,aisle 02 place 11,35,15,furniture
+6012,Floor Lamp,34.99,aisle 09 place 08,90,-5,furniture
+6013,Bookcase,129.0,aisle 08 place 17,25,0,furniture
+6014,Coffee Mug,5.99,aisle 05 place 03,200,10,furniture
+6015,Side Table,45.0,aisle 06 place 14,40,-20,furniture
+6016,Desk Organizer,12.99,aisle 03 place 05,75,15,furniture
+6017,Comforter Set,99.99,aisle 12 place 19,15,20,furniture
+6018,Wall Mirror,69.5,aisle 11 place 10,30,-5,furniture
+6019,Bar Stool,29.99,aisle 07 place 12,50,0,furniture
+6020,Bean Bag Chair,49.99,aisle 08 place 20,65,-10,furniture
+6021,Study Desk,89.5,aisle 05 place 14,30,25,furniture
+6022,Table Lamp,19.99,aisle 11 place 07,80,-5,furniture
+6023,Storage Basket,12.5,aisle 06 place 18,120,-10,furniture
+6024,Corner Desk,149.99,aisle 03 place 10,40,-15,furniture
+6025,Desk Organizer,24.99,aisle 09 place 15,50,15,furniture
+6026,Throw Pillow,9.99,aisle 12 place 06,70,0,furniture
+6027,Kitchen Table,179.0,aisle 07 place 09,20,25,furniture
+6028,TV Console,129.99,aisle 10 place 14,35,0,furniture
+6029,Wall Clock,29.5,aisle 08 place 18,25,0,furniture
+6030,Bathroom Shelf,34.99,aisle 04 place 13,60,0,furniture
+6031,Office Chair,99.5,aisle 05 place 21,45,20,furniture
+6032,Sideboard,119.99,aisle 02 place 16,30,-15,furniture
+6033,Desk Lamp,29.99,aisle 06 place 11,55,0,furniture
+6034,Plant Pot,14.5,aisle 11 place 19,40,-10,furniture
+6035,Accent Chair,79.99,aisle 09 place 12,25,0,furniture
+6036,Coffee Table,59.5,aisle 03 place 08,90,0,furniture
+6037,Shelving Unit,89.0,aisle 07 place 16,15,-10,furniture
+6039,Coat Rack,22.99,aisle 12 place 17,70,-20,furniture
+6040,End Table,39.99,aisle 08 place 14,80,-5,furniture
+6041,Wall Art,29.5,aisle 06 place 19,30,-15,furniture
+6042,Shoe Rack,45.0,aisle 04 place 12,40,5,furniture
+6043,Curtain Set,54.99,aisle 11 place 15,20,0,furniture
+6044,Bookend,8.99,aisle 09 place 08,100,-10,furniture
+6045,Console Cabinet,129.5,aisle 05 place 18,20,-5,furniture
+6046,Desk Chair,69.99,aisle 02 place 14,35,-15,furniture
+6047,Floor Rug,59.5,aisle 11 place 06,50,-10,furniture
+6048,Dining Chair,34.5,aisle 07 place 10,70,5,furniture
+6049,Bedside Table,49.99,aisle 10 place 16,45,-5,furniture
+6050,Desk Fan,19.5,aisle 06 place 09,30,-15,furniture
+6051,Wall Mirror,89.0,aisle 03 place 17,25,0,furniture
+6052,Storage Ottoman,59.99,aisle 08 place 13,55,10,furniture
+6053,Wall Shelf,24.5,aisle 12 place 20,40,-10,furniture
+6054,Bar Stool,39.99,aisle 05 place 15,90,5,furniture
+6055,Throw Blanket,29.5,aisle 09 place 14,35,15,furniture
+6056,Desk Lamp,24.99,aisle 06 place 08,50,-10,furniture
+6057,Picture Frame,12.5,aisle 03 place 21,70,-5,furniture
+6058,Wall Shelf,34.99,aisle 07 place 13,25,20,furniture
+6059,Rug Red,30.7,aisle 10 place 1,50,10,furniture
+3001,T-Shirt,19.99,aisle 12 place 35,50,0,clothing
+3002,Jeans,39.99,aisle 05 place 02,30,0,clothing
+3003,Hoodie,29.99,aisle 08 place 40,40,0,clothing
+3004,Sneakers,59.99,aisle 03 place 30,20,0,clothing
+3005,Skirt,24.99,aisle 08 place 05,35,-20,clothing
+3006,Dress Shirt,34.99,aisle 01 place 45,45,10,clothing
+3007,Leggings,22.99,aisle 09 place 05,60,-5,clothing
+3008,Jacket,79.99,aisle 06 place 25,25,15,clothing
+3009,Shorts,17.99,aisle 04 place 70,70,-30,clothing
+3010,Sweater,49.99,aisle 11 place 15,15,0,clothing
+4001,Smartphone,599.99,aisle 07 place 40,100,40,electronics
+4002,Laptop,1299.99,aisle 02 place 30,30,80,electronics
+4003,Headphones,89.99,aisle 12 place 50,50,-15,electronics
+4004,Smartwatch,149.99,aisle 05 place 80,80,60,electronics
+4005,Bluetooth Speaker,49.99,aisle 09 place 20,120,-25,electronics
+4006,Tablet,299.99,aisle 14 place 40,40,-5,electronics
+4007,Camera,599.99,aisle 03 place 20,20,30,electronics
+4008,Gaming Console,399.99,aisle 11 place 15,15,-10,electronics
+4009,Wireless Earbuds,79.99,aisle 08 place 65,65,-20,electronics
+4010,TV,799.99,aisle 06 place 10,10,50,electronics
+4011,Keyboard,59.99,aisle 03 place 90,90,-30,electronics
+4012,Mouse,24.99,aisle 07 place 70,70,-15,electronics
+4013,Router,89.99,aisle 04 place 45,45,-5,electronics
+4014,External Hard Drive,129.99,aisle 10 place 25,25,10,electronics
+4015,Printer,149.99,aisle 05 place 35,35,-20,electronics
+4016,Smart Home Hub,199.99,aisle 02 place 50,50,15,electronics
+4017,Fitness Tracker,79.99,aisle 13 place 60,60,-10,electronics
+4018,Drone,299.99,aisle 01 place 15,15,25,electronics
+4019,VR Headset,199.99,aisle 14 place 40,40,-15,electronics
+4020,Monitor,199.99,aisle 08 place 30,30,20,electronics
+5001,Notebook,5.99,aisle 03 place 20,200,10,stationery
+5002,Pen Set,9.99,aisle 02 place 80,80,-15,stationery
+5003,Stapler,12.99,aisle 01 place 120,120,5,stationery
+5004,Highlighters,3.99,aisle 04 place 70,70,-20,stationery
+5005,Desk Organizer,14.99,aisle 03 place 90,90,15,stationery
+5006,Paper Clips,1.99,aisle 02 place 150,150,-10,stationery
+5007,Scissors,5.99,aisle 05 place 100,100,20,stationery
+5008,Whiteboard,19.99,aisle 01 place 50,50,-5,stationery
+5009,Post-it Notes,2.99,aisle 04 place 180,180,30,stationery
+5010,Tape Dispenser,7.99,aisle 06 place 60,60,-10,stationery
+5011,Ruler,3.99,aisle 01 place 130,130,25,stationery
+5012,Markers Set,8.99,aisle 07 place 80,80,-15,stationery
+5013,Correction Tape,1.99,aisle 05 place 120,120,10,stationery
+5014,File Folders,6.99,aisle 06 place 100,100,-20,stationery
+5015,Desk Lamp,29.99,aisle 08 place 40,40,15,stationery

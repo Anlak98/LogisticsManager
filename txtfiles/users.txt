@@ -1,0 +1,18 @@
+Francesca,Formula1,Warehouse_Manager,2,1000
+uno,1,System_Administrator,2,1001
+admin,password,System_Administrator,2,1002
+inventarista,inv,Inventory Clerk,1,1004
+sara2345,mclovin79,Inventory Clerk,1,1005
+Alice,securePassword,Inventory_Clerk,1,1006
+BobSmith99,mySecretPass,Inventory_Clerk,1,1007
+ElenaGreen7,sunflower42,Inventory_Clerk,1,1008
+mulettista,4ruote,Load/Unload_Operator,0,1009
+SamuelBrown22,pass123word,Load/Unload_Operator,0,1010
+Laura99,secretPassw0rd,Load/Unload_Operator,0,1011
+Alexandra22,ilovecats,Load/Unload_Operator,0,1012
+DanielDavis3,P@ssw0rd,Load/Unload_Operator,0,1013
+Sophie01,3x@mpl3P@ss,Load/Unload_Operator,0,1014
+James007,007BondPassword,Load/Unload_Operator,0,1015
+Isabella88,UnicornsRock,Load/Unload_Operator,0,1016
+James008,008BondPassword,Load/Unload_Operator,0,1017
+Marco60,juve1998,Load/Unload_Operator,0,1018
