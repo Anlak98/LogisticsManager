@@ -27,7 +27,7 @@ All files are avaible in the "LogisticManager" directory:
 - Language: Java
 - Framework: JavaFX
 - Additional applications: SceneBuilder
-<<<<<<< HEAD
+
 
 <br>
 <br>
